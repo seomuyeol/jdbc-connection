@@ -19,6 +19,7 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 /**
  * 트랜잭션 - 커넥션 파라미터 전달 방식 동기화
  */
+
 @Slf4j
 class MemberServiceV2Test {
 
