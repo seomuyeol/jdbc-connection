@@ -27,7 +27,6 @@ public class UnCheckedAppTest {
 
     }
 
-
     static class Controller {
         Service service = new Service();
 
