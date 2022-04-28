@@ -41,7 +41,7 @@ public class MemberRepositoryV4_1 implements MemberRepository{
             pstmt.executeUpdate();
             return member;
         } catch (SQLException e) {
-            throw new MyDBException(e);
+            throw new MyDBException(e); // 원인 꼭 넣어줘야함
         }finally {
             close(conn, pstmt, null);
         }
